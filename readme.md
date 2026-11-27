@@ -10,3 +10,10 @@ Tailwind CSS and Supabase.
 - Vite
 - Tailwind CSS
 - Supabase
+
+## Local setup
+
+1. Copy `.env.example` to `.env`.
+2. Add your Supabase project URL and anon key.
+3. Run `npm install`.
+4. Run `npm run dev`.

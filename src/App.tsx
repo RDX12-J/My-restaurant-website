@@ -22,6 +22,9 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#0c0c0c]">
+      <div className="fixed top-0 left-0 right-0 z-[60] h-8 bg-accent text-black flex items-center justify-center px-4 text-xs sm:text-sm font-semibold tracking-[0.18em] uppercase text-center">
+        This is only demo website
+      </div>
       <Navbar currentPage={currentPage} navigate={navigate} restaurantName={restaurantName} />
 
       <main>

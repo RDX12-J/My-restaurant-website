@@ -33,7 +33,7 @@ export default function Navbar({ currentPage, navigate, restaurantName }: Navbar
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+      className={`fixed top-8 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled || mobileOpen
           ? 'bg-[#0c0c0c]/95 backdrop-blur-md shadow-lg shadow-black/30 py-3'
           : 'bg-transparent py-5'
